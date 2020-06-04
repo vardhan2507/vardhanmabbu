@@ -5,8 +5,8 @@ import { Routes, RouterModule } from "@angular/router";
 import { ProfilepageComponent } from "./pages/profilepage/profilepage.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "home", pathMatch: "full" },
-  { path: "home", component: ProfilepageComponent },
+  { path: "", component: ProfilepageComponent },
+  { path: "**", redirectTo: "" }
 ];
 
 @NgModule({
