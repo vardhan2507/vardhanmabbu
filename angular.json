@@ -22,13 +22,18 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
+              "src/styles.scss",
+              "src/assets/css/nucleo-icons.css",
+              "node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "src/assets/scss/blk-design-system.scss",
+              "src/assets/demo/demo.css"
             ],
             "scripts": []
           },
@@ -92,6 +97,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vardhanmabbu"
+    }
+  },
+  "defaultProject": "vardhanmabbu",
+  "cli": {
+    "analytics": "03a95df3-cfac-4212-8193-0b5cbb866f91"
+  }
 }

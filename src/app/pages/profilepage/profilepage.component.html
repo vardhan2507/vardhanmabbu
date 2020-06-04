@@ -1,0 +1,282 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="100" id="navbar-top">
+  <div class="container">
+    <div class="navbar-translate">
+      <a class="navbar-brand" [routerLink]="['/home']" placement="bottom" tooltip="Designed and Coded by Vardhan">
+        <span> VardhanMabbu• </span> com
+      </a>
+      <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler"
+        [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
+        <span class="navbar-toggler-bar bar1"> </span>
+        <span class="navbar-toggler-bar bar2"> </span>
+        <span class="navbar-toggler-bar bar3"> </span>
+      </button>
+    </div>
+    <div class="navbar-collapse justify-content-end" [collapse]="isCollapsed" id="navigation">
+      <div class="navbar-collapse-header">
+        <div class="row">
+          <div class="col-6 collapse-brand"><a> VardhanMabbu </a></div>
+          <div class="col-6 collapse-close text-right">
+            <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler"
+              [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navigation" type="button">
+              <i class="tim-icons icon-simple-remove"> </i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item p-0">
+          <a class="nav-link" href="https://www.youtube.com/channel/UC_XIKSIPUe-3_Hth4YICz9Q" placement="bottom"
+            target="_blank" tooltip="Subscribe me on Youtube">
+            <i class="fab fa-youtube"> </i>
+            <p class="d-lg-none d-xl-none">Youtube</p>
+          </a>
+        </li>
+        <li class="nav-item p-0">
+          <a class="nav-link" href="https://github.com/vardhan2507" placement="bottom" target="_blank"
+            tooltip="Follow me on Github">
+            <i class="fab fa-github"> </i>
+            <p class="d-lg-none d-xl-none">Github</p>
+          </a>
+        </li>
+        <li class="nav-item p-0">
+          <a class="nav-link" href="https://www.instagram.com/vardhanmabbu/" placement="bottom" target="_blank"
+            tooltip="Follow me on Instagram">
+            <i class="fab fa-instagram"> </i>
+            <p class="d-lg-none d-xl-none">Instagram</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" (click)="scroll(projects)"> Projects </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)" (click)="scroll(work)"> Work </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="wrapper">
+  <div class="page-header">
+    <img class="dots" src="assets/img/dots.png" />
+
+    <img class="path" src="assets/img/path4.png" />
+
+    <div class="container align-items-center">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <h1 class="profile-title text-left">Saivardhan Mabbu</h1>
+          <h5 class="text-on-back">01</h5>
+          <p class="profile-description">
+            <u>Developer | Youtuber | FunLover</u>
+          </p><br><br>
+          <p class="profile-description justified-text">
+            {{greetingsMessage}} I'm a developer who loves to code💻. . . . . I contribute to opensource. I keep on
+            exploirng
+            new things everyday. I find working with api's provided by few platforms like google, twitter and other
+            social
+            media intresting. Trying to automate everything thing in this world!🌏
+          </p>
+          <div class="btn-wrapper profile pt-3">
+            <a class="btn btn-icon btn-youtube btn-round mr-1"
+              href="https://www.youtube.com/channel/UC_XIKSIPUe-3_Hth4YICz9Q" target="_blank">
+              <i class="fab fa-youtube"> </i>
+            </a>
+            <a class="btn btn-icon btn-github btn-round mr-1" href="https://github.com/vardhan2507" target="_blank">
+              <i class="fab fa-github"> </i>
+            </a>
+            <a class="btn btn-icon btn-instagram btn-round" href="https://www.instagram.com/vardhanmabbu/"
+              target="_blank">
+              <i class="fab fa-instagram"> </i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+          <div class="card card-coin card-plain">
+            <div class="card-header">
+              <img class="img-center img-fluid rounded-circle" src="assets/img/vardhan.jpg" />
+            </div>
+            <div class="card-body">
+              <tabset class="nav-tabs-danger justify-content-center tab-subcategories">
+                <tab heading="Skills">
+                  <div class="table-responsive" style="overflow: hidden!important;">
+                    <table class="table tablesorter" id="plain-table">
+                      <tbody>
+                        <tr>
+                          <td>Programming</td>
+                          <td>C, C++, Java, Python</td>
+                        </tr>
+                        <tr>
+                          <td>Scripting</td>
+                          <td>javascript, typescript, PHP</td>
+                        </tr>
+                        <tr>
+                          <td>Frameworks</td>
+                          <td>Angular, React, ReactNative, Spring MVC</td>
+                        </tr>
+                        <tr>
+                          <td>Design</td>
+                          <td>JSP, jQuery, bootstrap</td>
+                        </tr>
+                        <tr>
+                          <td>Platforms</td>
+                          <td>Unity 3D, PS, PEGA, DialogFlow, Android Studio</td>
+                        </tr>
+                        <tr>
+                          <td>Databases</td>
+                          <td>Firebase, MongoDB, Oracle 11G, MySQL</td>
+                        </tr>
+                        <tr>
+                          <td>Environments</td>
+                          <td>nodejs</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </tab>
+                <tab heading="Hobbies">
+                  <div class="table-responsive" style="overflow: hidden!important;">
+                    <p>
+                      👉 Cricket(short pitches though😜)
+                    </p>
+                    <p>
+                      👉 Chess
+                    </p>
+                    <p>
+                      👉 Youtube
+                    </p>
+                    <p>
+                      👉 Reading Tech articles
+                    </p>
+                    <p>
+                      👉 PubG⚔️
+                    </p>
+                  </div>
+                </tab>
+              </tabset>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" #projects>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-6">
+          <div class="row justify-content-between align-items-center">
+            <carousel [showIndicators]="true" style="cursor: pointer;">
+              <slide>
+                <img alt="First slide" class="d-block" src="assets/img/apptimeplus.jpg" />
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>App Time Plus</h4>
+                  <h5>[AndroidStudio, Firebase, Azure]</h5>
+                </div>
+              </slide>
+              <slide>
+                <img alt="Second slide" class="d-block" src="assets/img/unity3d.jpg" />
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Run2Live</h4>
+                  <h5>[Unity 3D]</h5>
+                </div>
+              </slide>
+              <slide>
+                <img alt="Third slide" class="d-block" src="assets/img/chatbot.jpg" />
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Vasavi Chat Bot</h4>
+                  <h5>[Dialog Flow]</h5>
+                </div>
+              </slide>
+              <slide>
+                <img alt="Third slide" class="d-block" src="assets/img/rpi.jpg" />
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Smart House</h4>
+                  <h5>[IOT]</h5>
+                </div>
+              </slide>
+              <slide>
+                <img alt="Third slide" class="d-block" src="assets/img/wir.jpg" />
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>War in the Room</h4>
+                  <h5>[Android Studio, Firebase]</h5>
+                </div>
+              </slide>
+            </carousel>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <h1 class="profile-title text-left">Projects</h1>
+          <h5 class="text-on-back">02</h5>
+          <p class="profile-description text-left justified-text">
+            👈🏻These are the few projects done in my college and in free time. You can find their details & other
+            projects
+            in
+            my Github.
+          </p>
+          <div class="btn-wrapper pt-3">
+            <a class="btn btn-simple btn-danger mr-1" href="https://github.com/vardhan2507" target="_blank">
+              <i class="fab fa-github"> </i> Github
+            </a>
+            <a class="btn btn-simple btn-info" href="https://play.google.com/store/apps/dev?id=4937893458390552386"
+              target="_blank">
+              <i class="fab fa-google"> </i> Play Store
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" #work>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-5">
+          <h1 class="profile-title text-left">Work</h1>
+          <h5 class="text-on-back">03</h5>
+          <p class="profile-description text-left justified-text">
+            I'm a Workaholic and I accept any kind of challenges. I make complex things Simple!😛 I love working for
+            startups as we get a great exposure and can work E2E. My scope of work will never be limited to a single
+            domain and I keep on exploring new things to make the product as good as possible.
+          </p>
+          <br>
+        </div>
+        <div class="col-md-6">
+          <a href="http://accolite.com/" target="_blank">
+            <h4>Accolite [Jan'19-May'19]</h4>
+          </a>
+          <h5>👨‍💻Tech Stack: Angular, Spring MVC, JSP, jQuery</h5><br>
+          <p class="profile-description text-left justified-text">
+            I did my Internship in Accolite as a Full Stack developer. Worked for Fedex client to develop FFDO module
+            for their pilots. Worked for Idera Team Server.
+          </p>
+          <br>
+          <a href="https://www.inncircles.com/" target="_blank">
+            <h4>Inncircles [May'19-Present]</h4>
+          </a>
+          <h5>👨‍💻Tech Stack: Angular, ReactNative, nodejs, MongoDB, Express, Shelljs</h5><br>
+          <p class="profile-description text-left justified-text">
+            Inncircles is a startup which mainly focuses on providing products for Construction companies like ASBL.
+            The
+            products I was built are Sales, Releases Management tool, Company Website, Mobile app for customers who
+            buy
+            flats, Offline mechanism for the mobile app.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <h1 class="title">VardhanMabbu</h1>
+      <p>© 2020 Saivardhan Mabbu. <span style="text-decoration: line-through;">All rights
+          reserved</span>😂Kidding!</p>
+    </div>
+  </footer>
+</div>
