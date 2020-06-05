@@ -19,7 +19,7 @@ import { environment } from '../environments/environment';
     RouterModule,
     AppRoutingModule,
     PagesModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: true })
   ],
   providers: [],
   bootstrap: [AppComponent]
