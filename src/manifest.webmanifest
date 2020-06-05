@@ -1,7 +1,7 @@
 {
-  "name": "vardhanmabbu",
-  "short_name": "vardhanmabbu",
-  "theme_color": "#1976d2",
+  "name": "Vardhan Mabbu",
+  "short_name": "Vardhan",
+  "theme_color": "#00c4b4",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
