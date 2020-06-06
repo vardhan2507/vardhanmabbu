@@ -20,21 +20,21 @@ export class BotService {
 
     this.botCommand = this.subject.asObservable();
 
-    // this.socket = io.connect(environment.ioSocketUrl, {
-    //   query: { uuid: uuidv4() }
-    // });
+    this.socket = io.connect(environment.ioSocketUrl, {
+      query: { uuid: uuidv4() }
+    });
 
-    // this.on(SOCKET_EVENTS.PASSCODE).subscribe((result: any) => {
-    //   if (result) {
-    //     this.subject.next({ type: SOCKET_EVENTS.PASSCODE, payload: result });
-    //   }
-    // });
+    this.on(SOCKET_EVENTS.PASSCODE).subscribe((result: any) => {
+      if (result) {
+        this.subject.next({ type: SOCKET_EVENTS.PASSCODE, payload: result });
+      }
+    });
 
-    // this.on(SOCKET_EVENTS.NAVIGATE).subscribe((result: any) => {
-    //   if (result) {
-    //     this.subject.next({ type: SOCKET_EVENTS.NAVIGATE, payload: result.url });
-    //   }
-    // });
+    this.on(SOCKET_EVENTS.NAVIGATE).subscribe((result: any) => {
+      if (result) {
+        this.subject.next({ type: SOCKET_EVENTS.NAVIGATE, payload: result.url });
+      }
+    });
   }
 
 
