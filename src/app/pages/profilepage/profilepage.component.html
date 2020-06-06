@@ -159,7 +159,7 @@
       </div>
     </div>
   </div>
-  <div class="section" #projects>
+  <div class="section" #projects id="projects">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-md-6">
@@ -279,4 +279,30 @@
           reserved</span>😂Kidding!</p>
     </div>
   </footer>
+</div>
+
+
+<div aria-hidden="true" aria-labelledby="myModalLabel" bsModal class="modal fade modal-mini modal-primary modal-mini"
+  #myModal="bs-modal" id="myModal" role="dialog" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <button aria-hidden="true" class="close" data-dismiss="modal" (click)="myModal.hide()" type="button">
+          <i class="tim-icons icon-simple-remove text-white"></i>
+        </button>
+        <div class="modal-profile">
+          <i class="tim-icons icon-key-25"> </i>
+        </div>
+      </div>
+      <div class="modal-body">
+        <p>Please enter this passcode</p>
+        <p>Passcode- {{passcode}}</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-link btn-neutral" data-dismiss="modal" type="button" (click)="myModal.hide()">
+          Ok
+        </button>
+      </div>
+    </div>
+  </div>
 </div>

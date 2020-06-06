@@ -16,6 +16,7 @@ import { ModalModule } from "ngx-bootstrap/modal";
 import { JwBootstrapSwitchNg2Module } from "jw-bootstrap-switch-ng2";
 import { PopoverModule } from "ngx-bootstrap/popover";
 import { ProfilepageComponent } from "./profilepage/profilepage.component";
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
   imports: [
@@ -38,6 +39,7 @@ import { ProfilepageComponent } from "./profilepage/profilepage.component";
   ],
   declarations: [
     ProfilepageComponent,
+    PrivacyPolicyComponent,
   ],
   exports: [
     ProfilepageComponent,
