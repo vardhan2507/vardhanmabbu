@@ -7,7 +7,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 
 const routes: Routes = [
   { path: "", component: ProfilepageComponent },
-  // { path: "privacy", component: PrivacyPolicyComponent },
+  { path: "privacy", component: PrivacyPolicyComponent },
   { path: "**", redirectTo: "" }
 ];
 
