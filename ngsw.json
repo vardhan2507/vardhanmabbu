@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1591357388287,
+  "timestamp": 1591461231259,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.665ad512da5fc79487a1.js",
-        "/main-es5.665ad512da5fc79487a1.js",
+        "/main-es2015.0f434c1bd2f59840ed79.js",
+        "/main-es5.0f434c1bd2f59840ed79.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/polyfills-es5.9e286f6d9247438cbb02.js",
         "/runtime-es2015.1eba213af0b233498d9d.js",
         "/runtime-es5.1eba213af0b233498d9d.js",
-        "/styles.58ba1dbabe56f519cc9c.css"
+        "/styles.f25f9c1366639343e5a3.css"
       ],
       "patterns": []
     },
@@ -40,6 +40,7 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/img/apple-favicon.png",
         "/assets/img/apptimeplus.jpg",
         "/assets/img/asc.gif",
         "/assets/img/bg.gif",
@@ -257,6 +258,7 @@
     "/assets/icons/icon-512x512.png": "708336de65e1a6a9718f53fa0e92bac4a932a31b",
     "/assets/icons/icon-72x72.png": "f52d9530edc5e4cfef7e7e87ede9d4fcb9095118",
     "/assets/icons/icon-96x96.png": "1a580e8987853f182d2f047df3bc10eaa3061024",
+    "/assets/img/apple-favicon.png": "08eb9e45892d2e54db77895f82051c752b721876",
     "/assets/img/apptimeplus.jpg": "11229380a0d638ef6e054039a64436a638aff113",
     "/assets/img/asc.gif": "af94960a9c835351587fd76685136825d5726654",
     "/assets/img/bg.gif": "5240b42cc2c6b4a9130f10b8fc06032266605cdb",
@@ -399,7 +401,7 @@
     "/assets/scss/blk-design-system/custom/_tabs.scss": "03cd28272923b3c0ea72625ac480ed153e150b34",
     "/assets/scss/blk-design-system/custom/_type.scss": "af4b94df3f7a125f1e6bc4cf1d0ed7783f1f4a6e",
     "/assets/scss/blk-design-system/custom/_utilities.scss": "99182beb7f1d4566dcabea9994b2fd44a5b499ab",
-    "/assets/scss/blk-design-system/custom/_variables.scss": "8284ff0616a5f771a15e166c43ab29ef8a550531",
+    "/assets/scss/blk-design-system/custom/_variables.scss": "996ee50674e13d0fa1860a3d3c869218c49ee552",
     "/assets/scss/blk-design-system/custom/cards/_card-chart.scss": "5e03c02c76ffb94e706b95032329861ab79998b1",
     "/assets/scss/blk-design-system/custom/cards/_card-map.scss": "45bcad1ba706f1728a132840e9cac1b8413ec712",
     "/assets/scss/blk-design-system/custom/cards/_card-plain.scss": "6000724ec881ea944a99a592ecadf2511d896b8b",
@@ -445,10 +447,10 @@
     "/assets/scss/blk-design-system/custom/vendor/_plugin-nouislider.scss": "b893af6ff69d49144e6ed74b14873d5d9554d7b0",
     "/assets/scss/blk-design-system/custom/vendor/_plugin-perfect-scrollbar.scss": "3aacb3863c3b76e8ce0b0fff894a688a5406a85a",
     "/dots.1e305f981d41a2c30adb.png": "9b23a6f37a4ad25072690154329735e76ee87827",
-    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "81328745b5a7e4fe522bee313c18e2712d597bf0",
-    "/main-es2015.665ad512da5fc79487a1.js": "e307110fa54c0f5297e680a02cb932b792552d8b",
-    "/main-es5.665ad512da5fc79487a1.js": "877f92e027487d4cb88c88ec704b5a8d383df9ac",
+    "/favicon.ico": "00f9fd9e2b63d1a94604ec3cd3daff652bd016e5",
+    "/index.html": "0a5ef87e1bb8a856c447c5225bef67080139b273",
+    "/main-es2015.0f434c1bd2f59840ed79.js": "925830f9db49c24122c22403a789fa6fdf4f6786",
+    "/main-es5.0f434c1bd2f59840ed79.js": "183830d6b7e6b27f1c38afcdd12704aa44da996d",
     "/manifest.webmanifest": "a6859390a2343021eadea5ea85787d6c92b5c6b2",
     "/nucleo.35b08447277ca7bf9f09.ttf": "b736fce9084ad598fbed20cd5d7cbdd862979d3d",
     "/nucleo.5c65ef4d6434bb8062a3.woff": "f1569c44bea1e2aa4c37a48d41369466ba1bf649",
@@ -463,7 +465,7 @@
     "/square3.235ea41b7cee0696448d.png": "5450384c7cda1a694c6e2e47cce6bf7eeaba1446",
     "/square4.b0072563cab16ef45d81.png": "56b506ae50188b77a56edebf13fd75c2e29ba0db",
     "/square5.16283001f5a086113265.png": "63556c43f20621039e96192ab07deaf87a4a96ed",
-    "/styles.58ba1dbabe56f519cc9c.css": "ab471d6f0c36bea5fbc895e6f24e141b33f16c1b"
+    "/styles.f25f9c1366639343e5a3.css": "7f9c1f78f88273b15eeba0e3275c7dfc2135d358"
   },
   "navigationUrls": [
     {
