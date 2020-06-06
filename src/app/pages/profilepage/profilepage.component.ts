@@ -26,6 +26,7 @@ export class ProfilepageComponent implements OnInit, OnDestroy {
       switch (result.type) {
         case SOCKET_EVENTS.PASSCODE:
           this.passcode = result.payload;
+          console.log("Here is your passcode, incase you missed it :p", this.passcode);
           this.myModal.show();
           break;
 
@@ -67,7 +68,6 @@ export class ProfilepageComponent implements OnInit, OnDestroy {
   }
 
   scroll(el: HTMLElement) {
-    console.log("Scrolling", el);
     el.scrollIntoView({ behavior: "smooth" });
     this.isCollapsed = true
   }
